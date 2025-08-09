@@ -1,0 +1,8 @@
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+        "issue_id": 123,
+        "comment_text": "This is a test comment from curl.",
+        "author": "curl_tester"
+      }' \
+  http://127.0.0.1:8000/get_payload
